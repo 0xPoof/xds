@@ -44,6 +44,11 @@ pods.
 
 And that's it! Your xDS server is ready.
 
+## Docker image
+```
+docker build -t xds:latest . --platform linux/x86_64
+```
+
 ## Connecting to xDS from various languages
 You'd need to set xDS bootstrap config on your application. Here's the xDS bootstrap file:
 

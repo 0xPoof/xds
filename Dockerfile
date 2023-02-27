@@ -14,4 +14,4 @@ RUN apt-get update \
 	&& useradd -M -u 1000 -s /bin/false app
 USER 1000
 WORKDIR /
-CMD ["/opt/k8sxds"]
+CMD ["/opt/k8sxds", "-v", "4"]
